@@ -1,5 +1,9 @@
 # pcaSmoothing
 
+This code is based on an assignment from the course AML 498 at the University of Illinois
+https://courses.engr.illinois.edu/cs498aml/sp2019/homeworks/homework3.html
+
+
 # Problems
 
 At here, you will find a five noisy versions of the Iris dataset, and a noiseless version. For each of the 5 noisy data sets, you should compute the principal components in two ways. In the first, you will use the mean and covariance matrix of the noiseless dataset. In the second, you will use the mean and covariance of the respective noisy datasets. Based on these components, you should compute the mean squared error between the noiseless version of the dataset and each of a PCA representation using 0 (i.e. every data item is represented by the mean), 1, 2, 3, and 4 principal components. The mean squared error here should compute the sum of the squared errors over the features and compute the mean of this over the rows. For example, if the noiseless version has two rows [1,2,3,4] and [0,0,0,0] and the reconstructed version is [1,2,3,0] and [1,1,1,1] the MSE would be (16 + 4) / 2 = 10
